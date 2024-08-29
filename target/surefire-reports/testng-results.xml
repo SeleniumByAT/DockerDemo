@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T17:00:19 IST" name="Suite" finished-at="2024-08-29T17:03:40 IST" duration-ms="201590">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T17:00:19 IST" name="Test" finished-at="2024-08-29T17:03:40 IST" duration-ms="201590">
+      <class name="dockerDemo.DockerFirefox">
+        <test-method signature="Test()[pri:0, instance:dockerDemo.DockerFirefox@74751b3]" started-at="2024-08-29T17:03:29 IST" name="Test" finished-at="2024-08-29T17:03:40 IST" duration-ms="11315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- dockerDemo.DockerFirefox -->
+      <class name="dockerDemo.DockerEdge">
+        <test-method signature="Test()[pri:0, instance:dockerDemo.DockerEdge@58d75e99]" started-at="2024-08-29T17:00:30 IST" name="Test" finished-at="2024-08-29T17:03:29 IST" duration-ms="179373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- dockerDemo.DockerEdge -->
+      <class name="dockerDemo.DockerChrome">
+        <test-method signature="Test()[pri:0, instance:dockerDemo.DockerChrome@5acf93bb]" started-at="2024-08-29T17:00:19 IST" name="Test" finished-at="2024-08-29T17:00:30 IST" duration-ms="10665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- dockerDemo.DockerChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

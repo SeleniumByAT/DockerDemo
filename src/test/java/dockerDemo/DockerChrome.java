@@ -4,12 +4,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class DockerChrome {
-
-	public static void main(String[] args) throws MalformedURLException {
+@Test
+	public static void Test() throws MalformedURLException {
 		ChromeOptions option=new ChromeOptions();
 		option.addArguments("---headless--");
 		URL url = new URL("http://localhost:4444");
